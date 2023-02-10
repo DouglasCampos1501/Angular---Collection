@@ -1,0 +1,31 @@
+.card{
+    max-width: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 10px;
+    border-color: none;
+    text-align: left;
+    justify-content: center;
+    padding: 15px;
+    margin: 25px;
+    min-height: 300px;
+    height: 300px;
+    position: relative;
+    float: left;
+    box-shadow: 0 0 3px 3px  rgba(00, 00, 00, 0.2);
+}
+
+.card:hover, :focus{
+    box-shadow: 0 0 5px 5px  rgba(00, 125, 00, 0.3);
+    background-color: azure;    
+    color: black ;
+}
+
+img{
+    max-width: 100px;
+}
+
+.center{
+    text-align: center;
+    justify-content: center;
+}

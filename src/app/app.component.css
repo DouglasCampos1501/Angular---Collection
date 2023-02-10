@@ -1,0 +1,16 @@
+h3 {
+    color: dodgerblue;
+}
+
+.head{
+    background-color: grey;
+    min-height: 50px;
+}
+
+.foot {
+    background-color: grey;
+    min-height: 50px;
+    color: white;
+    text-align: center;
+    align-items: center;
+}

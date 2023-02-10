@@ -1,0 +1,16 @@
+
+<!-- <input type="text" class="form-control" (input)="atualizarCategoria($event)"> -->
+
+<input type="text" class="form-control" [(ngModel)]="categoria">
+
+<button class="btn btn-primary" [disabled]="!showButton" (click)="mudarCategoria()">Adicionar Categoria</button>
+<p> {{ categoria }}</p>
+<!-- <p> {{showButton}}</p> -->
+<app-book *ngFor="let livro of livros"></app-book>
+
+
+<div class="foot">
+
+</div>
+
+

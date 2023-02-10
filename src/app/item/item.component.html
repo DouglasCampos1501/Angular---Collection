@@ -1,0 +1,9 @@
+<div *ngFor="let aux of item" class="card">
+    <div class="center">
+        <img class="center" src={{aux.img}}>
+    </div>
+    <p *ngIf="aux.categoria != 0"><strong>Categoria:</strong> {{aux.categoria}}</p>
+    <p><strong>Nome: </strong>{{ aux.nome }}</p>
+    <p><strong>Quantidade:</strong> {{ aux.quantidade }}</p>
+    <p><strong>Estado:</strong> {{ aux.estado }}</p>
+</div>
